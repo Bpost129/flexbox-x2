@@ -1,5 +1,6 @@
 .flex-parent {
   background-color: black;
+  display: flex;
 }
 
 .flex-child {
