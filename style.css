@@ -1,11 +1,15 @@
 .flex-parent {
   background-color: black;
   display: flex;
+  height: 600px;
+  justify-content: space-around;
 }
 
 .flex-child {
   font-family: sans-serif;
   font-size: 48px;
+  height: 100px;
+  width: 100px;
 }
 
 .flex-parent > :nth-child(1) {
